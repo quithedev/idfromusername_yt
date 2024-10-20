@@ -32,6 +32,7 @@ channel_id = get_channel_id(username)
 
 if channel_id:
     print(channel_id)
+    print(f"RSS Feed: https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}")
     sys.exit(0)
 else:
     print("User doesn't exist.")
